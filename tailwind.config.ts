@@ -8,9 +8,14 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      animation: {
+        'spin-slow': 'spin 60s linear infinite',
+      },
+      fontFamily: {
+        montserrat: ["var(--font-montserrat)"],
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#F8A108",
       },
     },
   },
