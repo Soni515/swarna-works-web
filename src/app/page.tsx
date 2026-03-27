@@ -148,10 +148,11 @@ export default function Home() {
 
             <div className="flex flex-wrap gap-3 justify-center md:justify-start">
               <a
-                href="#pricing"
+                href="/images/Swarna Works Services.pdf"
+                download="Swarna Works Services.pdf"
                 className="bg-white text-[#F8A108] font-montserrat font-bold text-sm px-7 py-3.5 rounded-full shadow-xl shadow-black/20 hover:shadow-black/30 hover:-translate-y-0.5 active:scale-95 transition-all"
               >
-                Lihat Harga
+                Services
               </a>
               <a
                 href={WA_LINK_ADMIN}
